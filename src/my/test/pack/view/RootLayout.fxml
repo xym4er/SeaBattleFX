@@ -36,7 +36,7 @@
                   <HBox layoutX="31.0" layoutY="35.0">
                      <children>
                         <Button layoutX="21.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="1" />
-                        <Button layoutX="73.0" layoutY="25.0" mnemonicParsing="false"  prefHeight="30.0" prefWidth="30.0" styleClass="button1" />
+                        <Button layoutX="73.0" layoutY="25.0" mnemonicParsing="false" onAction="#click" prefHeight="30.0" prefWidth="30.0" />
                         <Button layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
                         <Button layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
                         <Button layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
@@ -185,7 +185,7 @@
                   </HBox>
                </children>
             </VBox>
-            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+            <TextArea fx:id="textArea" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
          </children>
       </GridPane>
    </children>

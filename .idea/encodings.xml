@@ -3,6 +3,7 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/src/my/test/pack/MainApp.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/my/test/pack/control/RootLayoutController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/my/test/pack/model/Field2d.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/my/test/pack/view/style.css" charset="UTF-8" />
   </component>
 </project>

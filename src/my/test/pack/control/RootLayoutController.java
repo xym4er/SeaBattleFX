@@ -1,12 +1,16 @@
 package my.test.pack.control;
 
+import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 import javafx.scene.layout.HBox;
 import my.test.pack.MainApp;
 import javafx.scene.control.Button;
 import my.test.pack.model.Field2d;
+import javafx.event.ActionEvent;
+import javafx.event.EventType;
 
 
 public class RootLayoutController {
@@ -21,8 +25,16 @@ public class RootLayoutController {
     Field2d field2d = new Field2d();
 
     @FXML
-    public void click(){
-        field2d.doShoot();
+    private void click(ActionEvent event){
+        Button source = (Button)event.getSource();
+        if (source instanceof Button) {
+            Button clickedBtn = (Button) source;
+            String s = clickedBtn.getId();
+            textArea.appendText(Integer.parseInt(s)/10 + "");
+            textArea.appendText(Integer.parseInt(s)-(Integer.parseInt(s)/10)*10 + "\n");
+            field2d.doShoot((Integer.parseInt(s)/10),(Integer.parseInt(s)-(Integer.parseInt(s)/10)*10),textArea);
+
+        }
 
     }
 

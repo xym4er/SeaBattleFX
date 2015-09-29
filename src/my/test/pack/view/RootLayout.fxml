@@ -36,151 +36,151 @@
                   <HBox layoutX="31.0" layoutY="35.0">
                      <children>
                         <Button layoutX="21.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="1" />
-                        <Button layoutX="73.0" layoutY="25.0" mnemonicParsing="false" onAction="#click" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+                        <Button fx:id="00" layoutX="73.0" layoutY="25.0" mnemonicParsing="false" onAction="#click" prefHeight="30.0" prefWidth="30.0" />
+                        <Button fx:id="01" layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="02" layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="03" layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="04" layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="05" layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="06" layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="07" layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="08" layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="09" layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
                      </children>
                   </HBox>
                   <HBox layoutX="41.0" layoutY="45.0">
                      <children>
                         <Button layoutX="21.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="2" />
-                        <Button layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+                        <Button fx:id="10" layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="11" layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="12" layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="13" layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="14" layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="15" layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="16" layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="17" layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="18" layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="19" layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
                      </children>
                   </HBox>
                   <HBox layoutX="51.0" layoutY="55.0">
                      <children>
                         <Button layoutX="21.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="3" />
-                        <Button layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+                        <Button fx:id="20" layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="21" layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="22" layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="23" layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="24" layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="25" layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="26" layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="27" layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="28" layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="29" layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
                      </children>
                   </HBox>
                   <HBox layoutX="61.0" layoutY="65.0">
                      <children>
                         <Button layoutX="21.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="4" />
-                        <Button layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+                        <Button fx:id="30" layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="31" layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="32" layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="33" layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="34" layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="35" layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="36" layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="37" layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="38" layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="39" layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
                      </children>
                   </HBox>
                   <HBox layoutX="71.0" layoutY="75.0">
                      <children>
                         <Button layoutX="21.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="5" />
-                        <Button layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+                        <Button fx:id="40" layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="41" layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="42" layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="43" layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="44" layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="45" layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="46" layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="47" layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="48" layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="49" layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
                      </children>
                   </HBox>
                   <HBox layoutX="81.0" layoutY="85.0">
                      <children>
                         <Button layoutX="21.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="6" />
-                        <Button layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+                        <Button fx:id="50" layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="51" layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="52" layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="53" layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="54" layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="55" layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="56" layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="57" layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="58" layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="59" layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
                      </children>
                   </HBox>
                   <HBox layoutX="91.0" layoutY="95.0">
                      <children>
                         <Button layoutX="21.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="7" />
-                        <Button layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+                        <Button fx:id="60" layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="61" layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="62" layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="63" layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="64" layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="65" layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="66" layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="67" layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="68" layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="69" layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
                      </children>
                   </HBox>
                   <HBox layoutX="101.0" layoutY="105.0">
                      <children>
                         <Button layoutX="21.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="8" />
-                        <Button layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+                        <Button fx:id="70" layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="71" layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="72" layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click"  />
+                        <Button fx:id="73" layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="74" layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="75" layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="76" layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="77" layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="78" layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="79" layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
                      </children>
                   </HBox>
                   <HBox layoutX="111.0" layoutY="115.0">
                      <children>
                         <Button layoutX="21.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="9" />
-                        <Button layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+                        <Button fx:id="80" layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="81" layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="82" layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="83" layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="84" layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="85" layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="86" layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="87" layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="88" layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="89" layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
                      </children>
                   </HBox>
                   <HBox layoutX="121.0" layoutY="125.0">
                      <children>
                         <Button layoutX="21.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="10" />
-                        <Button layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-                        <Button layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+                        <Button fx:id="90" layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="91" layoutX="132.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="92" layoutX="184.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="93" layoutX="236.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="94" layoutX="288.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="95" layoutX="340.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="96" layoutX="392.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="97" layoutX="444.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="98" layoutX="496.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
+                        <Button fx:id="99" layoutX="554.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" onAction="#click" />
                      </children>
                   </HBox>
                </children>

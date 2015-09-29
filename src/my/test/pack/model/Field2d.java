@@ -1,6 +1,7 @@
 package my.test.pack.model;
 
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.TextArea;
 import my.test.pack.MainApp;
 import my.test.pack.control.RootLayoutController;
 import javafx.scene.control.Button;
@@ -59,38 +60,38 @@ public class Field2d {
 //        }
 //    }
 
-    public void doShoot(int y, int x) {
-        controller.addText("ваш выстрел: " + y + " - " + x + "\n");
+    public void doShoot(int x, int y, TextArea textArea) {
+        textArea.appendText("ваш выстрел: " + x + " - " + y + "");
 
 
 
 
         switch (cellss.get(x).get(y).cell) {
             case '.':
-                controller.addText("Missed\n");
+                textArea.appendText("Missed\n");
                 cellss.get(x).get(y).cell = '@';
-                controller.setMiss(x,y);
+                controller.buttons[x][y].setText('\u2022' + "");
                 break;
             case '@':
-                controller.addText("Уже стреляли\n");
+                textArea.appendText("Уже стреляли\n");
                 break;
             case 'X':
                 if (cellss.get(x).get(y).ship.health == 0) {
-                    controller.addText("Убил!\n");
+                    textArea.appendText("Убил!\n");
                     cellss.get(x).get(y).cell = '#';
-                    controller.setHit(x,y);
+                    controller.buttons[x][y].setText('\u2718' + "");
                     cellss.get(x).get(y).ship.boooom();
                     Ship.allHealth--;
                 } else {
-                    controller.addText("Попал!");
+                    textArea.appendText("Попал!");
                     cellss.get(x).get(y).cell = '#';
-                    controller.setHit(x,y);
+                    controller.buttons[x][y].setText('\u2718' + "");
                     cellss.get(x).get(y).ship.health--;
                     Ship.allHealth--;
                 }
                 break;
             default:
-                controller.addText("ERROR\n");
+                textArea.appendText("ERROR\n");
         }
     }
 
@@ -117,28 +118,28 @@ public class Field2d {
     static void missAroundPoint(int x, int y) {
 
         if (x > 0 && y > 0) {
-            if (cellss.get(x - 1).get(y - 1).cell == '.') {cellss.get(x - 1).get(y - 1).cell = '@';controller.setMiss(x-1,y-1);}
+            if (cellss.get(x - 1).get(y - 1).cell == '.') {cellss.get(x - 1).get(y - 1).cell = '@';controller.buttons[x-1][y-1].setText('\u2022' + "");}
         }
         if (x > 0) {
-            if (cellss.get(x - 1).get(y).cell == '.') {cellss.get(x - 1).get(y).cell = '@';controller.setMiss(x-1,y);}
+            if (cellss.get(x - 1).get(y).cell == '.') {cellss.get(x - 1).get(y).cell = '@';controller.buttons[x-1][y].setText('\u2022' + "");}
         }
         if (x > 0 && y < 9) {
-            if (cellss.get(x - 1).get(y + 1).cell == '.') {cellss.get(x - 1).get(y + 1).cell = '@';controller.setMiss(x-1,y+1);}
+            if (cellss.get(x - 1).get(y + 1).cell == '.') {cellss.get(x - 1).get(y + 1).cell = '@';controller.buttons[x-1][y+1].setText('\u2022' + "");}
         }
         if (y > 0) {
-            if (cellss.get(x).get(y - 1).cell == '.') {cellss.get(x).get(y - 1).cell = '@';controller.setMiss(x,y-1);}
+            if (cellss.get(x).get(y - 1).cell == '.') {cellss.get(x).get(y - 1).cell = '@';controller.buttons[x][y-1].setText('\u2022' + "");}
         }
         if (y < 9) {
-            if (cellss.get(x).get(y + 1).cell == '.') {cellss.get(x).get(y + 1).cell = '@';controller.setMiss(x,y+1);}
+            if (cellss.get(x).get(y + 1).cell == '.') {cellss.get(x).get(y + 1).cell = '@';controller.buttons[x][y+1].setText('\u2022' + "");}
         }
         if (x < 9 && y > 0) {
-            if (cellss.get(x + 1).get(y - 1).cell == '.') {cellss.get(x + 1).get(y - 1).cell = '@';controller.setMiss(x+1,y-1);}
+            if (cellss.get(x + 1).get(y - 1).cell == '.') {cellss.get(x + 1).get(y - 1).cell = '@';controller.buttons[x+1][y-1].setText('\u2022' + "");}
         }
         if (x < 9) {
-            if (cellss.get(x + 1).get(y).cell == '.') {cellss.get(x + 1).get(y).cell = '@';controller.setMiss(x+1,y);}
+            if (cellss.get(x + 1).get(y).cell == '.') {cellss.get(x + 1).get(y).cell = '@';controller.buttons[x+1][y].setText('\u2022' + "");}
         }
         if (x < 9 && y < 9) {
-            if (cellss.get(x + 1).get(y + 1).cell == '.') {cellss.get(x + 1).get(y + 1).cell = '@';controller.setMiss(x+1,y+1);}
+            if (cellss.get(x + 1).get(y + 1).cell == '.') {cellss.get(x + 1).get(y + 1).cell = '@';controller.buttons[x+1][y+1].setText('\u2022' + "");}
         }
     }
 

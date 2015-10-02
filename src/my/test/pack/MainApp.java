@@ -6,8 +6,8 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import my.test.pack.control.RootLayoutController;
-import java.io.IOException;
 
+import java.io.IOException;
 
 
 /**
@@ -55,7 +55,6 @@ public class MainApp extends Application {
     public Stage getPrimaryStage() {
         return primaryStage;
     }
-
 
 
 }

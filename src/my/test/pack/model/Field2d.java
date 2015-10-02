@@ -27,8 +27,8 @@ public class Field2d {
         for (int i = 0; i < 10; i++) {
             cellss.add(new ArrayList<Cell>());
             for (int j = 0; j < 10; j++) {
-                cellss.get(i).add( new Cell());
-                cellss.get(i).get(j).button=controller.buttons[i][j];
+                cellss.get(i).add(new Cell());
+                cellss.get(i).get(j).button = controller.buttons[i][j];
 
             }
         }
@@ -40,7 +40,6 @@ public class Field2d {
                 n++;
             }
         }
-
 
 
     }
@@ -61,7 +60,7 @@ public class Field2d {
 //    }
 
     public void doShoot(int x, int y, TextArea textArea) {
-        textArea.appendText("ваш выстрел: " + (x+1) + " - " + (y+1) + "\n");
+        textArea.appendText("ваш выстрел: " + (x + 1) + " - " + (y + 1) + "\n");
         switch (cellss.get(x).get(y).cell) {
             case '.':
                 textArea.appendText("Missed\n");
@@ -123,28 +122,52 @@ public class Field2d {
     static void missAroundPoint(int x, int y) {
 
         if (x > 0 && y > 0) {
-            if (cellss.get(x - 1).get(y - 1).cell == '.') {cellss.get(x - 1).get(y - 1).cell = '@';controller.buttons[x-1][y-1].setText('\u2022' + "");}
+            if (cellss.get(x - 1).get(y - 1).cell == '.') {
+                cellss.get(x - 1).get(y - 1).cell = '@';
+                controller.buttons[x - 1][y - 1].setText('\u2022' + "");
+            }
         }
         if (x > 0) {
-            if (cellss.get(x - 1).get(y).cell == '.') {cellss.get(x - 1).get(y).cell = '@';controller.buttons[x-1][y].setText('\u2022' + "");}
+            if (cellss.get(x - 1).get(y).cell == '.') {
+                cellss.get(x - 1).get(y).cell = '@';
+                controller.buttons[x - 1][y].setText('\u2022' + "");
+            }
         }
         if (x > 0 && y < 9) {
-            if (cellss.get(x - 1).get(y + 1).cell == '.') {cellss.get(x - 1).get(y + 1).cell = '@';controller.buttons[x-1][y+1].setText('\u2022' + "");}
+            if (cellss.get(x - 1).get(y + 1).cell == '.') {
+                cellss.get(x - 1).get(y + 1).cell = '@';
+                controller.buttons[x - 1][y + 1].setText('\u2022' + "");
+            }
         }
         if (y > 0) {
-            if (cellss.get(x).get(y - 1).cell == '.') {cellss.get(x).get(y - 1).cell = '@';controller.buttons[x][y-1].setText('\u2022' + "");}
+            if (cellss.get(x).get(y - 1).cell == '.') {
+                cellss.get(x).get(y - 1).cell = '@';
+                controller.buttons[x][y - 1].setText('\u2022' + "");
+            }
         }
         if (y < 9) {
-            if (cellss.get(x).get(y + 1).cell == '.') {cellss.get(x).get(y + 1).cell = '@';controller.buttons[x][y+1].setText('\u2022' + "");}
+            if (cellss.get(x).get(y + 1).cell == '.') {
+                cellss.get(x).get(y + 1).cell = '@';
+                controller.buttons[x][y + 1].setText('\u2022' + "");
+            }
         }
         if (x < 9 && y > 0) {
-            if (cellss.get(x + 1).get(y - 1).cell == '.') {cellss.get(x + 1).get(y - 1).cell = '@';controller.buttons[x+1][y-1].setText('\u2022' + "");}
+            if (cellss.get(x + 1).get(y - 1).cell == '.') {
+                cellss.get(x + 1).get(y - 1).cell = '@';
+                controller.buttons[x + 1][y - 1].setText('\u2022' + "");
+            }
         }
         if (x < 9) {
-            if (cellss.get(x + 1).get(y).cell == '.') {cellss.get(x + 1).get(y).cell = '@';controller.buttons[x+1][y].setText('\u2022' + "");}
+            if (cellss.get(x + 1).get(y).cell == '.') {
+                cellss.get(x + 1).get(y).cell = '@';
+                controller.buttons[x + 1][y].setText('\u2022' + "");
+            }
         }
         if (x < 9 && y < 9) {
-            if (cellss.get(x + 1).get(y + 1).cell == '.') {cellss.get(x + 1).get(y + 1).cell = '@';controller.buttons[x+1][y+1].setText('\u2022' + "");}
+            if (cellss.get(x + 1).get(y + 1).cell == '.') {
+                cellss.get(x + 1).get(y + 1).cell = '@';
+                controller.buttons[x + 1][y + 1].setText('\u2022' + "");
+            }
         }
     }
 

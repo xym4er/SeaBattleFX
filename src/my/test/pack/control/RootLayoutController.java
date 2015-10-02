@@ -30,8 +30,8 @@ public class RootLayoutController {
         if (source instanceof Button) {
             Button clickedBtn = (Button) source;
             String s = clickedBtn.getId();
-            textArea.appendText(Integer.parseInt(s)/10 + "");
-            textArea.appendText(Integer.parseInt(s)-(Integer.parseInt(s)/10)*10 + "\n");
+//            textArea.appendText(Integer.parseInt(s)/10 + "");
+//            textArea.appendText(Integer.parseInt(s)-(Integer.parseInt(s)/10)*10 + "\n");
             field2d.doShoot((Integer.parseInt(s)/10),(Integer.parseInt(s)-(Integer.parseInt(s)/10)*10),textArea);
 
         }

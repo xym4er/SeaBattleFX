@@ -9,6 +9,7 @@ import my.test.pack.control.RootLayoutController;
 import java.io.IOException;
 
 
+
 /**
  * Created by ChornyiUA on 28.09.2015.
  */
@@ -29,6 +30,7 @@ public class MainApp extends Application {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("AddressApp");
         initRootLayout();
+
     }
 
     public void initRootLayout() {

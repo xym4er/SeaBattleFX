@@ -61,11 +61,7 @@ public class Field2d {
 //    }
 
     public void doShoot(int x, int y, TextArea textArea) {
-        textArea.appendText("ваш выстрел: " + x + " - " + y + "");
-
-
-
-
+        textArea.appendText("ваш выстрел: " + (x+1) + " - " + (y+1) + "\n");
         switch (cellss.get(x).get(y).cell) {
             case '.':
                 textArea.appendText("Missed\n");
@@ -83,7 +79,7 @@ public class Field2d {
                     cellss.get(x).get(y).ship.boooom();
                     Ship.allHealth--;
                 } else {
-                    textArea.appendText("Попал!");
+                    textArea.appendText("Попал!\n");
                     cellss.get(x).get(y).cell = '#';
                     controller.buttons[x][y].setText('\u2718' + "");
                     cellss.get(x).get(y).ship.health--;
@@ -92,6 +88,15 @@ public class Field2d {
                 break;
             default:
                 textArea.appendText("ERROR\n");
+        }
+
+        if (!isNotGameOver()) {
+            textArea.appendText("Поздравляю, вы победили!");
+            for (int i = 0; i < 10; i++) {
+                for (int j = 0; j < 10; j++) {
+                    controller.buttons[i][j].setDisable(true);
+                }
+            }
         }
     }
 

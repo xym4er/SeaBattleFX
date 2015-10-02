@@ -11,7 +11,8 @@ import java.io.IOException;
 
 
 /**
- * Created by ChornyiUA on 28.09.2015.
+ *
+ *
  */
 public class MainApp extends Application {
     private Stage primaryStage;
